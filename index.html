@@ -106,6 +106,13 @@
             padding: 0.25rem 0.75rem;
             cursor: pointer;
         }
+		.profile-pic {
+  			width: 60px;          /* adjust size */
+  			height: 60px;
+  			border-radius: 50%;   /* makes it circular */
+  			object-fit: cover;    /* keeps proportions clean */
+  			border: 2px solid #ccc; /* optional border */
+}
         @media (max-width: 900px) {
             .container {
                 margin-left: 0;
@@ -172,6 +179,7 @@
         <!-- About Section -->
         <section class="mb-12">
             <h2 class="section-title">About Me</h2>
+			<img src="kate_headshot.jpg" alt="Katherine Sarna" class="profile-pic">
             <div class="card">
                 <p class="text-gray-300">
                     I am a skilled and motivated Electrical Engineer with a strong foundation in analog integrated circuits, semiconductor devices, and optoelectronics. 
